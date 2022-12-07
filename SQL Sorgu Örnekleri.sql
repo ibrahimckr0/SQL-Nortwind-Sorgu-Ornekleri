@@ -16,7 +16,7 @@ where UnitPrice<(select avg(UnitPrice) from Products)
 
 
 -- En pahali 3 urun
-Select Top 5
+Select Top 3
 	UnitPrice
 From Products
 Order By UnitPrice desc
